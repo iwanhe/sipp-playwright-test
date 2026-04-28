@@ -1,0 +1,14 @@
+# .gitignore
+
+# File kredensial - JANGAN commit!
+.env
+
+# Folder auth session Playwright
+playwright/.auth/
+
+# File hasil test (besar, tidak perlu di-commit)
+playwright-report/
+test-results/
+
+# Node modules
+node_modules/
